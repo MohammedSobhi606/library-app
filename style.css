@@ -57,20 +57,22 @@ a {
     z-index: 1000;
     overflow: hidden;
     transition: transform 2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .hide-loader.loader-wrapper{
-    /*transform: translateY(-200%);*/
+    /*tsranform: translateY(-200%);*/
     transform: rotate(180deg);
     transform-origin: top left;
+
 }
 .loader {
     width: 40%;
     height: 1px;
     background-color: whitesmoke;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
     animation: loader 5s  ;
 }
 @keyframes loader {
