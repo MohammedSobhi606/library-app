@@ -63,7 +63,6 @@ a {
 
 }
 .hide-loader.loader-wrapper{
-    /*tsranform: translateY(-200%);*/
     transform: rotate(180deg);
     transform-origin: top left;
 
@@ -72,7 +71,6 @@ a {
     width: 40%;
     height: 1px;
     background-color: whitesmoke;
-
     animation: loader 5s  ;
 }
 @keyframes loader {
